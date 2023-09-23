@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Montserrat:wght@300&family=Rubik:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+body {
+    background-color: rgb(220, 220, 220);
+}
+.School,.Other,.House,.Walk {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 4%;
+    transition: all ease 500ms;
+    &:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    }
+}
+.imga {
+    width: 100%;
+    border-radius: 10px;
+}
+.title {
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.posts {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 4%;
+    transition: all ease 500ms;
+    .showdesc {
+        margin-top: 2%;
+        color: black;
+        background-color: rgb(220, 220, 220);
+        padding: 5% 15%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all ease 500ms;
+        &:hover {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            cursor: pointer;
+        }
+    }
+    .minifotka {
+        display: flex;
+        justify-content: space-between;
+        .minifotochka {
+            background-color: rgb(220, 220, 220);
+            padding: 5% 15%;
+            border-radius: 15px;
+            color: black;
+            transition: all ease 500ms;
+            &:hover {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    .photophoto {
+        width: 100%;
+        border-radius: 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .titlephoto {
+        padding: 2%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .descphoto {
+        padding: 2%;
+    }
+    &:hover {
+        background-color: rgb(108, 108, 108);
+        color: white;
+    }
+    
+}
+.parentselect {
+    display: flex;
+    margin-top: 10%;
+    .Select {
+        background-color: rgb(255, 255, 255);
+        padding: 3%;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0);
+        margin-right: 4%;
+        transition: all ease 500ms;
+        &:hover {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+.Archiv {
+    padding: 10%;
+    .selectarchiv {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .buttonshow {
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 1%;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 10%;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0);
+        margin-left: 45%;
+        transition: all ease 500ms;
+        &:hover {
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+            color: white;
+        }
+    }
+}
