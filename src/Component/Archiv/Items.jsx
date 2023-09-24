@@ -67,18 +67,18 @@ function Items(props) {
           {isImage1 && <div className="descphoto">{photo.desc1}</div>}
           {isImage2 && <div className="descphoto">{photo.desc2}</div>}
           {isImage3 && <div className="descphoto">{photo.desc3}</div>}
-          {isOpenImage1 && <img src={photo.image1} className="fullphoto" onClick={open1}/>}
-          {isOpenImage2 && <img src={photo.image2} className="fullphoto" onClick={open2}/>}
-          {isOpenImage3 && <img src={photo.image3} className="fullphoto" onClick={open3}/>}
+          {isOpenImage1 && <div className='contfullphoto'><img src={photo.image1} className="fullphoto" onClick={open1}/><div className="titlephotofull">{photo.title1}</div></div>}
+          {isOpenImage2 && <div className='contfullphoto'><img src={photo.image2} className="fullphoto" onClick={open2}/><div className="titlephotofull">{photo.title2}</div></div>}
+          {isOpenImage3 && <div className='contfullphoto'><img src={photo.image3} className="fullphoto" onClick={open3}/><div className="titlephotofull">{photo.title3}</div></div>}
         </div>)}})}
     </div>}
     {isPage2 && <div>
     {props.photo.map(photo => {if(photo.page === 2) {return(
         <div className='posts' key={photo.id}>
           <div>
-            {isImage1 && <img src={photo.image1} className="photophoto"/>}
-            {isImage2 && <img src={photo.image2} className="photophoto"/>}
-            {isImage3 && <img src={photo.image3} className="photophoto"/>}
+            {isImage1 && <img src={photo.image1} className="photophoto" onClick={open1}/>}
+            {isImage2 && <img src={photo.image2} className="photophoto" onClick={open2}/>}
+            {isImage3 && <img src={photo.image3} className="photophoto" onClick={open3}/>}
           </div>
           <div className="minifotka">
             <div className="minifotochka" onClick={image1}>1</div>
@@ -91,9 +91,9 @@ function Items(props) {
           {isImage1 && <div className="descphoto">{photo.desc1}</div>}
           {isImage2 && <div className="descphoto">{photo.desc2}</div>}
           {isImage3 && <div className="descphoto">{photo.desc3}</div>}
-          {isOpenImage1 && <img src={photo.image1} className="fullphoto" onClick={open1}/>}
-          {isOpenImage2 && <img src={photo.image2} className="fullphoto" onClick={open2}/>}
-          {isOpenImage3 && <img src={photo.image3} className="fullphoto" onClick={open3}/>}
+          {isOpenImage1 && <div className='contfullphoto'><img src={photo.image1} className="fullphoto" onClick={open1}/><div className="titlephotofull">{photo.title1}</div></div>}
+          {isOpenImage2 && <div className='contfullphoto'><img src={photo.image2} className="fullphoto" onClick={open2}/><div className="titlephotofull">{photo.title2}</div></div>}
+          {isOpenImage3 && <div className='contfullphoto'><img src={photo.image3} className="fullphoto" onClick={open3}/><div className="titlephotofull">{photo.title3}</div></div>}
         </div>)}})}
     </div>}
           <div className="containerpage">

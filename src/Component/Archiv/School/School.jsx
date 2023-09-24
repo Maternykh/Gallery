@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import SchoolPhoto from './SchoolPhoto';
-
-
 const School = () => {
     const [isShown, setIsShown] = useState(false);
     const handleClick = event => {
