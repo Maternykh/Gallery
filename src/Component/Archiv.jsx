@@ -8,7 +8,7 @@ const Archiv = () => {
     };
   return (
     <div className='Archiv'>
-        <div className="selectarchiv">Выберите архив</div>
+        <div className="selectarchiv">Альбомы</div>
         <div className="buttonshow" onClick={handleClick}>
           {!isShown && <RiArrowDownSLine/>}
           {isShown && <RiArrowUpSLine/>}

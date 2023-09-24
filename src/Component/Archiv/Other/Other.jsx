@@ -15,7 +15,9 @@ const Other = () => {
             <img src="./4.jpg" className='imga'/>
         </div>
         <div className="title">Другое</div>
-    </div>}
+        <div className="podskazka">Жмякни чтобы открыть</div>
+    </div>
+    }
     {isShown && <OtherPhoto/>}
   </div>
   )

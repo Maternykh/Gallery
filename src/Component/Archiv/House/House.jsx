@@ -13,6 +13,7 @@ const House = () => {
             <img src="./2.jpg" className='imga'/>
         </div>
         <div className="title">Дом</div>
+        <div className="podskazka">Жмякни чтобы открыть</div>
     </div>}
     {isShown && <HousePhoto/>}
   </div>

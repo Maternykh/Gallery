@@ -3,7 +3,6 @@ import SchoolPhoto from './SchoolPhoto';
 
 
 const School = () => {
-
     const [isShown, setIsShown] = useState(false);
     const handleClick = event => {
       setIsShown(current => !current);
@@ -15,6 +14,7 @@ const School = () => {
             <img src="./1.jpg" className='imga'/>
         </div>
         <div className="title">Школа</div>
+        <div className="podskazka">Жмякни чтобы открыть</div>
     </div>}
     {isShown && <SchoolPhoto/>}
   </div>

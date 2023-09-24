@@ -18,6 +18,9 @@ body {
     color: white;
     cursor: pointer;
     }
+    .podskazka {
+        padding: 2%;
+    }
 }
 .imga {
     width: 100%;
@@ -28,13 +31,38 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-
+.containerpage {
+    display: flex;
+    margin-top: 4%;
+    .pageselec {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 3% 8%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    margin-right: 4%;
+    transition: all ease 500ms;
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        cursor: pointer;
+    }
+}
+}
 .posts {
     background-color: rgb(255, 255, 255);
     margin-top: 10%;
     border-radius: 10px;
     padding: 4%;
     transition: all ease 500ms;
+    .fullphoto {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
     .showdesc {
         margin-top: 2%;
         color: black;
@@ -67,6 +95,7 @@ body {
     }
     .photophoto {
         width: 100%;
+        height: 400px;
         border-radius: 10px;
         &:hover {
             cursor: pointer;
@@ -81,7 +110,7 @@ body {
         padding: 2%;
     }
     &:hover {
-        background-color: rgb(108, 108, 108);
+        background-color: rgb(159, 159, 159);
         color: white;
     }
     

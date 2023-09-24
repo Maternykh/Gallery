@@ -12,6 +12,7 @@ const Walk = () => {
             <img src="./3.jpg" className='imga'/>
         </div>
         <div className="title">Гулянки</div>
+        <div className="podskazka">Жмякни чтобы открыть</div>
     </div>}
     {isShown && <WalkPhoto/>}
   </div>

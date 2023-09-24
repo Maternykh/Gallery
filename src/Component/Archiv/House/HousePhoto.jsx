@@ -14,6 +14,7 @@ function HousePhoto() {
             desc1:"Я задолбался",
             desc2:"А где очки",
             desc3:"Блин мне еще сдавать ее",
+            page:1,
         },
         {
             id:2,
@@ -26,6 +27,7 @@ function HousePhoto() {
             desc1:"Во рту землятрясение сиии",
             desc2:"Планка в воздухе",
             desc3:"А потом мы его запинали",
+            page:2,
         },
     ]
   return (

@@ -4,31 +4,31 @@ import Items from '../Items';
 function OtherPhoto() {
     const photo = [
         {
-           id:1,
-           title:"Какое-то название1",
-           image1:"./2.jpg",
-           image2:"./2.jpg",
-           image3:"./3.jpg",
-           desc:"Какое-то описание1"
+          id:1,
+          title1:"Симпл",
+          title2:"Толик щебень",
+          title3:"На мозги не давит зато",
+          image1:"./23.jpg",
+          image2:"./24.jpg",
+          image3:"./25.jpg",
+          desc1:"Дайте ему авп он все сделает",
+          desc2:"Чето молодо он выглядит для ребенка 90-х",
+          desc3:"Да там давить нечего",
+          page:1,
         },
         {
-            id:2,
-            title:"Какое-то название2",
-            image1:"./1.jpg",
-            image2:"./2.jpg",
-            image3:"./3.jpg",
-            miniimage:"./2.jpg",
-            desc:"Какое-то описание2"
+          id:2,
+          title1:"Домашний",
+          title2:"Толик щебень2",
+          title3:"У него дела по бизнесу",
+          image1:"./26.jpg",
+          image2:"./27.jpg",
+          image3:"./28.jpg",
+          desc1:"Уютно тебе на диванчике",
+          desc2:"Сиквел",
+          desc3:"ахахахахахахахахахаах",
+          page:2,
          },
-         {
-            id:3,
-            title:"Какое-то название3",
-            image1:"./1.jpg",
-            image2:"./2.jpg",
-            image3:"./3.jpg",
-            miniimage:"./3.jpg",
-            desc:"Какое-то описание3"
-          },
     ]
   return (
     <div>
